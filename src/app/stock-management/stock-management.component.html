@@ -1,0 +1,69 @@
+<!-- Table for Stock Management Information -->
+<div class="section-title">
+  <h2>Show Stock Management</h2>
+</div>
+
+<div class="container table-container">
+  <div class="row tbl-fixed">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Milk CM 500</th>
+          <th>Milk CM 200</th>
+          <th>Milk TM 500</th>
+          <th>Milk TM 200</th>
+          <th>Lassi 200</th>
+          <th>Lassi CUP 200</th>
+          <th>Lassi MANGO CUP 200</th>
+          <th>Dahi 200</th>
+          <th>Dahi 500</th>
+          <th>Dahi 2 LT</th>
+          <th>Dahi 5 LT</th>
+          <th>Dahi 10 LT</th>
+          <th>Dahi 2 LT 15</th>
+          <th>Dahi 5 LT 15</th>
+          <th>Dahi 10 LT 15</th>
+          <th>Buttermilk</th>
+          <th>Khova 500</th>
+          <th>Khoya 1000</th>
+          <th>Shrikhand 100</th>
+          <th>Shrikhand 250</th>
+          <th>Ghee 200</th>
+          <th>Ghee 500</th>
+          <th>Ghee 15 LT</th>
+          <th>Paneer Loose</th>
+          <th>Khova Loose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of stockData">
+          <td>{{ row.MilkCM500 }}</td>
+          <td>{{ row.MilkCM200 }}</td>
+          <td>{{ row.MilkTM500 }}</td>
+          <td>{{ row.MilkTM200 }}</td>
+          <td>{{ row.Lassi200 }}</td>
+          <td>{{ row.LassiCUP200 }}</td>
+          <td>{{ row.LassiMANGOCUP200 }}</td>
+          <td>{{ row.Dahi200 }}</td>
+          <td>{{ row.Dahi500 }}</td>
+          <td>{{ row.Dahi2LT }}</td>
+          <td>{{ row.Dahi5LT }}</td>
+          <td>{{ row.Dahi10LT }}</td>
+          <td>{{ row.Dahi2LT15 }}</td>
+          <td>{{ row.Dahi5LT15 }}</td>
+          <td>{{ row.Dahi10LT15 }}</td>
+          <td>{{ row.Buttermilk }}</td>
+          <td>{{ row.Khova500 }}</td>
+          <td>{{ row.Khoya1000 }}</td>
+          <td>{{ row.Shrikhand100 }}</td>
+          <td>{{ row.Shrikhand250 }}</td>
+          <td>{{ row.Ghee200 }}</td>
+          <td>{{ row.Ghee500 }}</td>
+          <td>{{ row.Ghee15LT }}</td>
+          <td>{{ row.Paneerloose }}</td>
+          <td>{{ row.khovaloose }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
